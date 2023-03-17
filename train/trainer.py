@@ -122,7 +122,7 @@ class LstmTrain:
 
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    cfg_path = 'configs/lstm.yaml'
+    cfg_path = 'configs/cnn_lstm.yaml'
     project_dir = os.path.dirname(os.path.dirname(__file__))
     with open(os.path.join(project_dir, cfg_path), 'r', encoding='UTF-8') as f:
         cfg = yaml.safe_load(f)
