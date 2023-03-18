@@ -76,6 +76,7 @@ weather.xlsx 链接：https://pan.baidu.com/s/1O7tCVWsJoDoSvPps1n_9Tw
 在model/__init__.py中可查看当前已支持的模型百名单
 
 - [x] lstm or bilstm
+- [x] cnn-lstm
 - [x] seq2seq
 - [x] seq2seq fusion, 当前仅支持sum fusion   
 
