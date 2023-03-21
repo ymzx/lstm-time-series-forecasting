@@ -1,8 +1,8 @@
 Global:
-  is_train: True
+  is_train: False
   epochs: 20
   save_model_dir: outputs/models
-  ckpt_path:
+  ckpt_path: D:\project\short-term-power-forecast\outputs\models\WMSELoss_8_4_epochs20.ckpt
   seq_len: 8  # 输入的时间步长
   output_size: 4
   spacing: 15 # 采样间隔，即每个采样点为15分钟

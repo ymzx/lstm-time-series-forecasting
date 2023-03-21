@@ -40,5 +40,5 @@ class CNNLSTM(nn.Module):
         # LSTM层输入 (batch_size,seq_length,out_channels)
         x = x.permute(0, 2, 1)
         x, h = self.LSTM(x)
-        output = self.fc(x[:, -1, :]).squeeze(0)
+        output = self.fc(x[:, -1, :])
         return output
